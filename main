@@ -1,0 +1,7 @@
+auto inicio = std::chrono::high_resolution_clock::now();
+
+quickSort(vectorPrueba, 0, vectorPrueba.size() - 1);
+
+auto fin = std::chrono::high_resolution_clock::now();
+std::chrono::duration<double, std::milli> tiempo = fin - inicio;
+std::cout << "Tiempo de ejecución: " << tiempo.count() << " ms" << std::endl;

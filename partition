@@ -1,0 +1,2 @@
+template <typename T>
+int partition(std::vector<T>& v, int ini, int fin);
